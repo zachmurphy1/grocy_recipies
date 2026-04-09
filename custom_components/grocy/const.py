@@ -2,11 +2,11 @@
 from datetime import timedelta
 from typing import Final
 
-NAME: Final = "Grocy"
-DOMAIN: Final = "grocy"
+NAME: Final = "Grocy Recipies"
+DOMAIN: Final = "grocy_recipies"
 VERSION = "0.0.0"
 
-ISSUE_URL: Final = "https://github.com/custom-components/grocy/issues"
+ISSUE_URL: Final = "https://github.com/zachmurphy1/groxy_recipies"
 
 PLATFORMS: Final = ["binary_sensor", "sensor"]
 
