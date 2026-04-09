@@ -6,9 +6,9 @@ import base64
 from typing import Any, Dict, Tuple
 from urllib.parse import urlparse
 
-from pygrocy2.data_models.meal_items import MealPlanItem
-from pygrocy2.data_models.product import Product
-from pygrocy2.grocy_api_client import CurrentStockResponse
+from grocy.data_models.meal_items import MealPlanItem
+from grocy.data_models.product import Product
+from grocy.grocy_api_client import CurrentStockResponse
 
 
 def extract_base_url_and_path(url: str) -> Tuple[str, str]:
